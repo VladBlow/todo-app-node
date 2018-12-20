@@ -7,7 +7,7 @@
     "watch": "PORT=3000 nodemon index.js",
     "start": "node index.js"
   },
-  "endines": {
+  "engines": {
     "node": "11.1.0"
   },
   "keywords": [],
