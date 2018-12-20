@@ -4,15 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "PORT=3000 nodemon index.js",
-    "build": "netlify-lambda build express"
+    "watch": "PORT=3000 nodemon index.js",
+    "start": "node index.js"
+  },
+  "endines": {
+    "node": "11.1.0"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4",
-    "serverless-http": "^1.8.0"
+    "express": "^4.16.4"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"
