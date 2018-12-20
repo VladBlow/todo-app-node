@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "PORT=3000 nodemon index.js"
+    "start": "PORT=3000 nodemon index.js",
+    "build": "netlify-lambda build express"
   },
   "keywords": [],
   "author": "",
